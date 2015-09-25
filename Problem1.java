@@ -16,14 +16,10 @@ public class Problem1 {
 		}
 		
 		//Counts and adds all the multiples of 5 till 1000.
+		//It doesn't sum the numbers if they are multiples of 3 as well.
 		for(int counter5=5; counter5<1000; counter5+=5) {
 			if(counter5%3 != 0)
 				sum = sum + counter5;
-		}
-		
-		//Elimates all the multiples of 15 from the sum as they are being repeated.
-		for(int counter15=0; counter15<1000; counter15+=15) {
-			sum = sum - counter15;
 		}
 		
 		//Prints out the final sum.
