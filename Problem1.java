@@ -17,7 +17,8 @@ public class Problem1 {
 		
 		//Counts and adds all the multiples of 5 till 1000.
 		for(int counter5=5; counter5<1000; counter5+=5) {
-			sum = sum + counter5;
+			if(counter5%3 != 0)
+				sum = sum + counter5;
 		}
 		
 		//Elimates all the multiples of 15 from the sum as they are being repeated.
