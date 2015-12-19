@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Problem 3 Largest Prime Factor
@@ -32,12 +33,12 @@ public class Problem3 {
 		}
 		
 		int check = 2;
-		while(check <= n/2) {
+		while(check <= n2) {
 			if(prime[check]) {
 				if(n%check == 0) {
+					System.out.println("Factor: " + check);
 					long answer = (long) n/check;
-					System.out.println("Greatest factor of " + n + " is " + answer);
-					break;
+					System.out.println("factor of " + n + " is " + answer);
 				}
 			}
 			check++;
