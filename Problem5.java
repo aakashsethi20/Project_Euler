@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Problem5 {
@@ -24,5 +25,4 @@ public class Problem5 {
 		System.out.println(counter);
 		s.close();
 	}
-
 }

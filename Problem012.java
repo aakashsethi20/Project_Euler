@@ -1,3 +1,4 @@
+
 public class Problem012
 {
 	private static int countFactors(int f)
